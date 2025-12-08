@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/iph10007.21/QAOA_ising/xy_mix/ising_xy.py", line 125, in <module>
+    params, circuit, gamma_syms, beta_syms = optimize_qaoa_for_field(p, J, h, steps=steps, eta=eta, seed=42)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iph10007.21/QAOA_ising/xy_mix/ising_xy.py", line 83, in optimize_qaoa_for_field
+    circuit, gamma_syms, beta_syms = build_qaoa_circuit(p,J,h)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iph10007.21/QAOA_ising/xy_mix/ising_xy.py", line 77, in build_qaoa_circuit
+    circuit.append(beta_layer(beta_symbols[i]))
+  File "/apps/anaconda3/envs/deeplearning/lib/python3.11/site-packages/cirq/circuits/circuit.py", line 2454, in append
+    self.insert(len(self._moments), moment_or_operation_tree, strategy)
+  File "/apps/anaconda3/envs/deeplearning/lib/python3.11/site-packages/cirq/circuits/circuit.py", line 2135, in insert
+    mops = list(ops.flatten_to_ops_or_moments(moment_or_operation_tree))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/anaconda3/envs/deeplearning/lib/python3.11/site-packages/cirq/ops/op_tree.py", line 106, in flatten_to_ops_or_moments
+    for subtree in root:
+  File "/home/iph10007.21/QAOA_ising/xy_mix/ising_xy.py", line 67, in beta_layer
+    yield cirq.XX(qubits[i], qubits[i+1]) ** (2 * beta / np.pi)
+                                                  ^^^^
+NameError: name 'beta' is not defined. Did you mean: 'eta'?
