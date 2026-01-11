@@ -28,6 +28,7 @@ def energy_TFIM_from_wavefunction(wf, J, h):
     # <Z_i Z_{i+1}>
     E_ZZ = sum(np.sum(probs * z_vals[:, i] * z_vals[:, i + 1]) for i in range(n - 1))
 
+    E_ZZ += np.sum(probs * z_vals[:, -1] * z_vals[:, 0])
     # <X_i>
     E_X = 0.0
     for i in range(n):
@@ -56,9 +57,10 @@ def gradient_energy(params, circuit, gamma_symbols, beta_symbols, J, h, eps=1e-3
         grad[k] = (f_plus - f_minus) / (2 * eps)
     return grad
 
-def gamma_layer(gamma_value, J,h):
+def gamma_layer(gamma_value, J, h):
     for i in range(n_qubits - 1):
         yield cirq.ZZ(qubits[i], qubits[i + 1]) ** (2 * gamma_value * J / np.pi)
+    yield cirq.ZZ(qubits[-1], qubits[0]) ** (2 * gamma_value * J / np.pi)  
     for j in range(n_qubits):
         yield cirq.X(qubits[j]) ** (2 * gamma_value * h / np.pi)
 
@@ -109,7 +111,7 @@ def optimize_qaoa_for_field(p, J, h, steps=80, eta=1e-2, seed=0, tol=1e-3):
 
 
 if __name__=="__main__":
-    n_qubits = 10
+    n_qubits=4
     J = 1.0
     h = 0.0
     p = 100

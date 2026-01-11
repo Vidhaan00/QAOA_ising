@@ -1,0 +1,15 @@
+Sun Jan 11 23:54:26 IST 2026
+h=0.000, Step 000: E_total = -3.547220
+h=0.000, Step 020: E_total = -3.905352
+h=0.000, Step 040: E_total = -3.979345
+Converged at step 47: ΔE = 0.000948, E = -3.987767
+
+Measured bitstrings and probabilities:
+0000 : 0.5195
+1111 : 0.4770
+0110 : 0.0015
+1100 : 0.0005
+0011 : 0.0005
+0010 : 0.0005
+1101 : 0.0005
+Mon Jan 12 00:03:37 IST 2026

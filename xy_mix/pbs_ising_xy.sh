@@ -1,9 +1,9 @@
-#PBS -N ising_xy
+#PBS -N ising_xy_100
 #PBS -lselect=1:ncpus=8:mem=40gb
 #######walltime=10:00:00
 #PBS -q workq
 #PBS -m abe
-#PBS -o output.log
+#PBS -o output_xy_100.log
 #PBS -e error.log
 
 cd ${PBS_O_WORKDIR}
