@@ -1,0 +1,339 @@
+Wed Jan 14 16:33:50 IST 2026
+
+=== Optimizing p = 1 ===
+p=1, step=000, E=-0.415118
+p=1, step=020, E=-0.478120
+p=1, step=040, E=-0.542642
+
+=== Optimizing p = 2 ===
+p=2, step=000, E=-0.553449
+p=2, step=020, E=-0.630330
+p=2, step=040, E=-0.710993
+
+=== Optimizing p = 3 ===
+p=3, step=000, E=-0.782285
+p=3, step=020, E=-0.879052
+p=3, step=040, E=-0.976817
+
+=== Optimizing p = 4 ===
+p=4, step=000, E=-1.032698
+p=4, step=020, E=-1.135838
+p=4, step=040, E=-1.232589
+
+=== Optimizing p = 5 ===
+p=5, step=000, E=-1.292316
+p=5, step=020, E=-1.377227
+p=5, step=040, E=-1.451326
+
+=== Optimizing p = 6 ===
+p=6, step=000, E=-1.476411
+p=6, step=020, E=-1.541017
+p=6, step=040, E=-1.595393
+
+=== Optimizing p = 7 ===
+p=7, step=000, E=-1.611813
+p=7, step=020, E=-1.659655
+p=7, step=040, E=-1.699596
+
+=== Optimizing p = 8 ===
+p=8, step=000, E=-1.718649
+p=8, step=020, E=-1.749913
+p=8, step=040, E=-1.778162
+
+=== Optimizing p = 9 ===
+p=9, step=000, E=-1.789434
+p=9, step=020, E=-1.814769
+p=9, step=040, E=-1.837413
+
+=== Optimizing p = 10 ===
+p=10, step=000, E=-1.847838
+
+=== Optimizing p = 11 ===
+p=11, step=000, E=-1.855227
+
+=== Optimizing p = 12 ===
+p=12, step=000, E=-1.867031
+
+=== Optimizing p = 13 ===
+p=13, step=000, E=-1.870758
+
+=== Optimizing p = 14 ===
+p=14, step=000, E=-1.880188
+
+=== Optimizing p = 15 ===
+p=15, step=000, E=-1.883115
+
+=== Optimizing p = 16 ===
+p=16, step=000, E=-1.883055
+
+=== Optimizing p = 17 ===
+p=17, step=000, E=-1.880324
+
+=== Optimizing p = 18 ===
+p=18, step=000, E=-1.895680
+
+=== Optimizing p = 19 ===
+p=19, step=000, E=-1.894476
+
+=== Optimizing p = 20 ===
+p=20, step=000, E=-1.898216
+
+=== Optimizing p = 21 ===
+p=21, step=000, E=-1.901040
+
+=== Optimizing p = 22 ===
+p=22, step=000, E=-1.903081
+
+=== Optimizing p = 23 ===
+p=23, step=000, E=-1.907188
+
+=== Optimizing p = 24 ===
+p=24, step=000, E=-1.912547
+
+=== Optimizing p = 25 ===
+p=25, step=000, E=-1.917778
+
+=== Optimizing p = 26 ===
+p=26, step=000, E=-1.923232
+p=26, step=020, E=-1.945191
+p=26, step=040, E=-1.967981
+
+=== Optimizing p = 27 ===
+p=27, step=000, E=-1.978996
+p=27, step=020, E=-2.008336
+p=27, step=040, E=-2.045547
+
+=== Optimizing p = 28 ===
+p=28, step=000, E=-2.062975
+p=28, step=020, E=-2.118926
+p=28, step=040, E=-2.189722
+
+=== Optimizing p = 29 ===
+p=29, step=000, E=-2.241958
+p=29, step=020, E=-2.338293
+p=29, step=040, E=-2.437085
+
+=== Optimizing p = 30 ===
+p=30, step=000, E=-2.497177
+p=30, step=020, E=-2.616407
+p=30, step=040, E=-2.760502
+
+=== Optimizing p = 31 ===
+p=31, step=000, E=-2.842078
+p=31, step=020, E=-3.044951
+p=31, step=040, E=-3.282680
+
+=== Optimizing p = 32 ===
+p=32, step=000, E=-3.413447
+p=32, step=020, E=-3.645887
+p=32, step=040, E=-3.817353
+
+=== Optimizing p = 33 ===
+p=33, step=000, E=-3.880461
+p=33, step=020, E=-3.949742
+
+=== Optimizing p = 34 ===
+p=34, step=000, E=-3.978090
+
+=== Optimizing p = 35 ===
+p=35, step=000, E=-3.980267
+
+=== Optimizing p = 36 ===
+p=36, step=000, E=-3.975710
+
+=== Optimizing p = 37 ===
+p=37, step=000, E=-3.986093
+
+=== Optimizing p = 38 ===
+p=38, step=000, E=-3.988888
+
+=== Optimizing p = 39 ===
+p=39, step=000, E=-3.990242
+
+=== Optimizing p = 40 ===
+p=40, step=000, E=-3.990778
+
+=== Optimizing p = 41 ===
+p=41, step=000, E=-3.989851
+
+=== Optimizing p = 42 ===
+p=42, step=000, E=-3.989597
+
+=== Optimizing p = 43 ===
+p=43, step=000, E=-3.992337
+
+=== Optimizing p = 44 ===
+p=44, step=000, E=-3.993123
+
+=== Optimizing p = 45 ===
+p=45, step=000, E=-3.994439
+
+=== Optimizing p = 46 ===
+p=46, step=000, E=-3.994933
+
+=== Optimizing p = 47 ===
+p=47, step=000, E=-3.995343
+
+=== Optimizing p = 48 ===
+p=48, step=000, E=-3.991229
+
+=== Optimizing p = 49 ===
+p=49, step=000, E=-3.987832
+
+=== Optimizing p = 50 ===
+p=50, step=000, E=-3.987915
+
+=== Optimizing p = 51 ===
+p=51, step=000, E=-3.995441
+
+=== Optimizing p = 52 ===
+p=52, step=000, E=-3.996089
+
+=== Optimizing p = 53 ===
+p=53, step=000, E=-3.996817
+
+=== Optimizing p = 54 ===
+p=54, step=000, E=-3.996843
+
+=== Optimizing p = 55 ===
+p=55, step=000, E=-3.991487
+
+=== Optimizing p = 56 ===
+p=56, step=000, E=-3.995109
+
+=== Optimizing p = 57 ===
+p=57, step=000, E=-3.989924
+
+=== Optimizing p = 58 ===
+p=58, step=000, E=-3.991924
+
+=== Optimizing p = 59 ===
+p=59, step=000, E=-3.993664
+
+=== Optimizing p = 60 ===
+p=60, step=000, E=-3.993963
+
+=== Optimizing p = 61 ===
+p=61, step=000, E=-3.995303
+
+=== Optimizing p = 62 ===
+p=62, step=000, E=-3.996355
+
+=== Optimizing p = 63 ===
+p=63, step=000, E=-3.996966
+
+=== Optimizing p = 64 ===
+p=64, step=000, E=-3.997002
+
+=== Optimizing p = 65 ===
+p=65, step=000, E=-3.995139
+
+=== Optimizing p = 66 ===
+p=66, step=000, E=-3.991021
+
+=== Optimizing p = 67 ===
+p=67, step=000, E=-3.995004
+
+=== Optimizing p = 68 ===
+p=68, step=000, E=-3.992652
+
+=== Optimizing p = 69 ===
+p=69, step=000, E=-3.996867
+
+=== Optimizing p = 70 ===
+p=70, step=000, E=-3.991023
+
+=== Optimizing p = 71 ===
+p=71, step=000, E=-3.998691
+
+=== Optimizing p = 72 ===
+p=72, step=000, E=-3.998936
+
+=== Optimizing p = 73 ===
+p=73, step=000, E=-3.998740
+
+=== Optimizing p = 74 ===
+p=74, step=000, E=-3.998754
+
+=== Optimizing p = 75 ===
+p=75, step=000, E=-3.999026
+
+=== Optimizing p = 76 ===
+p=76, step=000, E=-3.997579
+
+=== Optimizing p = 77 ===
+p=77, step=000, E=-3.997309
+
+=== Optimizing p = 78 ===
+p=78, step=000, E=-3.998380
+
+=== Optimizing p = 79 ===
+p=79, step=000, E=-3.997522
+
+=== Optimizing p = 80 ===
+p=80, step=000, E=-3.999378
+
+=== Optimizing p = 81 ===
+p=81, step=000, E=-3.998508
+
+=== Optimizing p = 82 ===
+p=82, step=000, E=-3.997394
+
+=== Optimizing p = 83 ===
+p=83, step=000, E=-3.996264
+
+=== Optimizing p = 84 ===
+p=84, step=000, E=-3.998795
+
+=== Optimizing p = 85 ===
+p=85, step=000, E=-3.998918
+
+=== Optimizing p = 86 ===
+p=86, step=000, E=-3.999122
+
+=== Optimizing p = 87 ===
+p=87, step=000, E=-3.997881
+
+=== Optimizing p = 88 ===
+p=88, step=000, E=-3.998853
+
+=== Optimizing p = 89 ===
+p=89, step=000, E=-3.999129
+
+=== Optimizing p = 90 ===
+p=90, step=000, E=-3.999254
+
+=== Optimizing p = 91 ===
+p=91, step=000, E=-3.999325
+
+=== Optimizing p = 92 ===
+p=92, step=000, E=-3.998392
+
+=== Optimizing p = 93 ===
+p=93, step=000, E=-3.996087
+
+=== Optimizing p = 94 ===
+p=94, step=000, E=-3.999633
+
+=== Optimizing p = 95 ===
+p=95, step=000, E=-3.998336
+
+=== Optimizing p = 96 ===
+p=96, step=000, E=-3.999702
+
+=== Optimizing p = 97 ===
+p=97, step=000, E=-3.997615
+
+=== Optimizing p = 98 ===
+p=98, step=000, E=-3.999855
+
+=== Optimizing p = 99 ===
+p=99, step=000, E=-3.999713
+
+=== Optimizing p = 100 ===
+p=100, step=000, E=-3.999802
+
+Measured bitstrings and probabilities:
+0000 : 0.5020
+1111 : 0.4980
+Wed Jan 14 17:53:25 IST 2026

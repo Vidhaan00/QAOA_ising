@@ -1,0 +1,92 @@
+Wed Jan 14 17:01:52 IST 2026
+
+=== Optimizing p = 5 ===
+p=5, step=000, E=0.293844
+p=5, step=010, E=-0.013268
+p=5, step=020, E=-0.323918
+p=5, step=030, E=-0.635498
+p=5, step=040, E=-0.945121
+
+=== Optimizing p = 10 ===
+p=10, step=000, E=-1.254250
+p=10, step=010, E=-1.558439
+p=10, step=020, E=-1.852680
+p=10, step=030, E=-2.131591
+p=10, step=040, E=-2.390598
+
+=== Optimizing p = 15 ===
+p=15, step=000, E=-2.620998
+p=15, step=010, E=-2.835070
+p=15, step=020, E=-3.022774
+p=15, step=030, E=-3.185430
+p=15, step=040, E=-3.324888
+
+=== Optimizing p = 20 ===
+p=20, step=000, E=-3.443747
+p=20, step=010, E=-3.543536
+p=20, step=020, E=-3.626839
+p=20, step=030, E=-3.695962
+p=20, step=040, E=-3.753004
+
+=== Optimizing p = 25 ===
+p=25, step=000, E=-3.796832
+p=25, step=010, E=-3.837581
+p=25, step=020, E=-3.869453
+p=25, step=030, E=-3.895078
+p=25, step=040, E=-3.915772
+
+=== Optimizing p = 30 ===
+p=30, step=000, E=-3.927542
+p=30, step=010, E=-3.946439
+p=30, step=020, E=-3.958005
+
+=== Optimizing p = 35 ===
+p=35, step=000, E=-3.960149
+
+=== Optimizing p = 40 ===
+p=40, step=000, E=-3.963501
+
+=== Optimizing p = 45 ===
+p=45, step=000, E=-3.965827
+
+=== Optimizing p = 50 ===
+p=50, step=000, E=-3.942814
+p=50, step=010, E=-3.966723
+
+=== Optimizing p = 55 ===
+p=55, step=000, E=-3.966237
+
+=== Optimizing p = 60 ===
+p=60, step=000, E=-3.958705
+
+=== Optimizing p = 65 ===
+p=65, step=000, E=-3.974140
+
+=== Optimizing p = 70 ===
+p=70, step=000, E=-3.975114
+
+=== Optimizing p = 75 ===
+p=75, step=000, E=-3.975827
+
+=== Optimizing p = 80 ===
+p=80, step=000, E=-3.978280
+
+=== Optimizing p = 85 ===
+p=85, step=000, E=-3.971182
+
+=== Optimizing p = 90 ===
+p=90, step=000, E=-3.979972
+
+=== Optimizing p = 95 ===
+p=95, step=000, E=-3.976874
+
+=== Optimizing p = 100 ===
+p=100, step=000, E=-3.985840
+
+Measured bitstrings and probabilities:
+0000 : 0.5035
+1111 : 0.4950
+1011 : 0.0005
+0001 : 0.0005
+0010 : 0.0005
+Wed Jan 14 17:26:27 IST 2026

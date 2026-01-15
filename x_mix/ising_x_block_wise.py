@@ -2,6 +2,49 @@ import cirq
 import numpy as np
 import sympy
 
+def blockwise_optimize_qaoa(
+    p_max, block_size,
+    J, h,
+    steps_per_block=50,
+    eta=1e-2,
+    seed=0,
+    tol=1e-3
+):
+    rng = np.random.default_rng(seed)
+    params = None
+
+    for p_local in range(block_size, p_max + 1, block_size):
+        print(f"\n=== Optimizing p = {p_local} ===")
+
+        circuit, gamma_syms, beta_syms = build_qaoa_circuit(p_local, J, h)
+
+        if params is None:
+            params = rng.uniform(0, np.pi, size=2 * p_local)
+        else:
+            new_params = 0.01 * rng.standard_normal(2 * block_size)
+            params = np.concatenate([params, new_params])
+
+        prev_energy = None
+
+        for step in range(steps_per_block):
+            grad = gradient_energy(
+                params, circuit, gamma_syms, beta_syms, J, h
+            )
+            params -= eta * grad
+
+            energy = energy_from_params(
+                params, circuit, gamma_syms, beta_syms, J, h
+            )
+
+            if step % 10 == 0:
+                print(f"p={p_local}, step={step:03d}, E={energy:.6f}")
+
+            if prev_energy is not None and abs(prev_energy - energy) < tol:
+                break
+
+            prev_energy = energy
+
+    return params, circuit, gamma_syms, beta_syms
 
 def measure_distribution(circuit, gamma_syms, beta_syms, params, shots=2000):
     measurement_circuit = circuit.copy()
@@ -111,7 +154,7 @@ def optimize_qaoa_for_field(p, J, h, steps=80, eta=1e-2, seed=0, tol=1e-3):
 
 
 if __name__=="__main__":
-    n_qubits = 4
+    n_qubits = 10
     J = 1.0
     h = 0.0
     p = 100
@@ -122,8 +165,15 @@ if __name__=="__main__":
     results, energies = {}, {}
     sim = cirq.Simulator()
     
-    
-    params, circuit, gamma_syms, beta_syms = optimize_qaoa_for_field(p, J, h, steps=steps, eta=eta, seed=42)
+    params, circuit, gamma_syms, beta_syms = blockwise_optimize_qaoa(
+            p_max=p,
+            block_size=25,
+            J=J,
+            h=h,
+            steps_per_block=50,
+            eta=eta,
+            seed=42)
+
     hist = measure_distribution(circuit, gamma_syms, beta_syms, params, shots=shots)
     # final energy
     resolver =resolver = cirq.ParamResolver({
@@ -139,5 +189,4 @@ if __name__=="__main__":
         bitstring = format(state_int, f"0{n_qubits}b")
         prob = count / shots
         print(f"{bitstring} : {prob:.4f}")
-
 
